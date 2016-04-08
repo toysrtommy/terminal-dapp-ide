@@ -5,4 +5,5 @@
 3. various vim tweaks, plugins (nerdtree, tagbar, auto complete, airline status bar, etc.) and color (default is "hybrid" colorscheme)
 4. tmux configuration
 
-
+## Screenshot
+![Coding in GO](/screenshot.png "Coding in GO")
