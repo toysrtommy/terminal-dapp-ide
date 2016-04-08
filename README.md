@@ -6,4 +6,4 @@
 4. tmux configuration
 
 ## Screenshot
-![Coding in GO](/screenshot.png "Coding in GO")
+![Coding in GO](/screenshot.png?raw=true "Coding in GO")
