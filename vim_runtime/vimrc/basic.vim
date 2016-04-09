@@ -1,4 +1,4 @@
-"------------------------------------------------------------------------------
+""------------------------------------------------------------------------------
 " General
 "------------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@ nnoremap JJJJ <nop>
 set so=999
 
 " add vertical lines on columns
-set colorcolumn=80,120
+set colorcolumn=90
 
 " Avoid garbled characters in Chinese language windows OS
 let $LANG='en'
@@ -142,7 +142,7 @@ if has("gui_running")
     set guioptions-=T
     set guioptions-=e
     set t_Co=256
-    set guitablabel=%M\ %t
+    "set guitablabel=%M\ %t
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -276,7 +276,7 @@ map <leader>cd :cd %:p:h<cr>:pwd<cr>
 
 " Specify the behavior when switching between buffers
 try
-  set switchbuf=useopen,usetab,newtab
+  set switchbuf=useopen,usetab
   set stal=2
 catch
 endtry
