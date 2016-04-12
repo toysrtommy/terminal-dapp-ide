@@ -27,6 +27,8 @@ let NERDTreeChDirMode = 2
 let NERDTreeShowLineNumbers = 1
 let NERDTreeAutoCenter = 1
 
+nmap <C-l> :call NERDComment('n','toggle')<cr>
+vmap <C-l> :call NERDComment('v','toggle')<cr>
 " Open NERDTree on startup, when no file has been specified
 "autocmd VimEnter * if !argc() | NERDTree | endif
 
@@ -37,6 +39,8 @@ map <leader>T :NERDTreeFind<cr>
 nmap <leader>o :NERDTreeTabsToggle<cr>
 
 "nmap <Leader>o <plug>NERDTreeTabsToggle<CR>
+
+
 
 
 "------------------------------------------------------------------------------
@@ -70,7 +74,8 @@ let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_go_checkers = [ 'govet', 'errcheck']
+"let g:syntastic_go_checkers = [ 'govet', 'errcheck']
+map <C-s> :w<CR>
 
 
 
@@ -108,6 +113,9 @@ au FileType go nmap <leader>b <Plug>(go-build)
 au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 
+
+au FileType go nmap <C-k> <Plug>(go-def-tab)
+
 " By default syntax-highlighting for Functions, Methods and Structs is disabled.
 " Let's enable them!
 let g:go_highlight_functions = 1
@@ -116,6 +124,7 @@ let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
 
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_type_go = {  

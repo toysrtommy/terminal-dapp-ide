@@ -253,13 +253,17 @@ map <leader>bd :Bclose<cr>
 " Close all the buffers
 map <leader>bda :1,1000 bd!<cr>
 
-" Useful mappings for managing tabs
+" ######
+" Tab management shortcuts
+" ######
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
-map <leader>tj :tabnext
-map <leader>tk :tabprevious
+map <C-]> :tabnext<cr>
+map <C-[> :tabprevious<cr>
+map <C-n> :tabnew<cr>
+map <C-\> :tabclose<cr>
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
