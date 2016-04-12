@@ -6,8 +6,15 @@
 4. tmux configuration
 
 ## Screenshot
+Editing GO file with split screen (tmux)
 ![Coding in GO](/screenshot.png?raw=true "Coding in GO")
+
+Solidity:  highlighting & Syntax check
 ![Solidity Highlighting & Syntax check](/screenshot-solidity-syntaxcheck.png?raw=true "Solidity")
+
+GO: Auto complete
 ![GO Auto complete](/screenshot-go-autocomplete.png?raw=true "Coding in GO")
+
+GO: Auto Syntax Check
 ![GO Syntax Check](/screenshot-go-syntaxcheck.png?raw=true "Coding in GO")
 
