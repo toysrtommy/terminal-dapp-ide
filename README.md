@@ -22,26 +22,22 @@ GO: Auto Syntax Check
 ![GO Syntax Check](/screenshot-go-syntaxcheck.png?raw=true "Coding in GO")
 
 ## Installation
-0. Git clone the repository and change directory to it
-1. Tmux Setup
- 
-If your tmux file is empty, you could simply copy / overwrite it:
-    cp tmux.conf ~/.tmux.conf
+1. Git clone the repository and change directory to it
 
-2. Copy vim bundle
+2. Tmux Setup
+     If your tmux file is empty, you could simply copy / overwrite it:
+        cp tmux.conf ~/.tmux.conf
 
-    cp -R vim_runtime ~/.vim_runtime
+3. Copy vim bundle
+        cp -R vim_runtime ~/.vim_runtime
 
-3. Add to your vim init file
+* Add to your vim init file
+    If you don't want to overwrite your existing vim config, you could simply concatenate it:
 
-If you don't want to overwrite your existing vim config, you could simply concatenate it:
+        cat vimrc ~/.vimrc
 
-    cat vimrc ~/.vimrc
-
-4. (Optional) Color theme
-
-    mkdir -p ~/.vim/colors
-
-    cp -R colors/* ~/.vim/colors
+* (Optional) Color theme
+        mkdir -p ~/.vim/colors
+        cp -R colors/* ~/.vim/colors
 
 
