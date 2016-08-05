@@ -1,7 +1,7 @@
 # Terminal-based Dev Environment for Solidity & Go
 ## Includes ...
-1. vim-go bundle: a complete IDE for golang development, including highlight, auto complete, nerd tree filebrowsing, etc.
-2. vim solidity syntax highlightng & syntax check
+1. vim-go bundle: a complete IDE for golang development, including highlight, auto complete, nerd tree filebrowsing, etc. (Credit to vim-go project: https://github.com/fatih/vim-go)
+2. vim solidity syntax highlightng & syntax check 
 3. various vim tweaks, plugins (nerdtree, tagbar, auto complete, airline status bar, etc.) and color (default is "hybrid" colorscheme)
 4. tmux configuration
 
